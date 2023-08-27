@@ -46,4 +46,28 @@ findAllPublished
 * GET	api/tutorials/published
 * GET	api/tutorials?title=[title]
 
+### تصاویر مربوط به build شدن داکرفایل ها:
+<img width="1440" alt="docker-build-1" src="https://github.com/royaghavami/SELab-Docker/assets/59202308/9033bd22-b9c7-4451-b578-153b45c21b06">
+<img width="1440" alt="docker-build-2" src="https://github.com/royaghavami/SELab-Docker/assets/59202308/e3eab1a6-df3a-45e3-9f58-6b6458212fe6">
+
+
+### تصویر container ها با اجرای دستور docker ps:
+<img width="1440" alt="docker-containers" src="https://github.com/royaghavami/SELab-Docker/assets/59202308/b1456cd4-7cc2-40cc-a46a-76ac398a1c80">
+
+
+### تصویر image ها با اجرای دستور docker image ls:
+<img width="1440" alt="docker-images" src="https://github.com/royaghavami/SELab-Docker/assets/59202308/567b0597-0033-4600-b2c3-557661a7d4cb">
+
+### تصاویر مربوط به اجرای موفقیت آمیز سیستم ایجاد شده (فایل تصاویر در فولدر screenshots قرار دارد):
+
+![se-6-1](https://github.com/royaghavami/SELab-Docker/assets/59202308/4de48371-df73-42bd-88b0-ca760db91fcc)
+
+![ses-6-2](https://github.com/royaghavami/SELab-Docker/assets/59202308/486a6419-1fcf-4efd-b4c1-7a51f132d1d0)
+
+![se-6-3](https://github.com/royaghavami/SELab-Docker/assets/59202308/f7852bcb-275b-4ff2-89ac-cfe7d5096572)
+
+![se-6-4](https://github.com/royaghavami/SELab-Docker/assets/59202308/59e40793-7d6b-49f1-b63e-79cd839bb2a5)
+
+
+
 
