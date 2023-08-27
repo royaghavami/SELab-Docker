@@ -37,13 +37,13 @@ findAllPublished
 - در نهایت تست های مربوطه را به کمک postman انجام میدهیم.
 - فهرست api های پیاده سازی شده:
 
-- GET	api/tutorials
-- GET	api/tutorials/:id
-- POST	api/tutorials
-- PUT	api/tutorials/:id
-- DELETE	api/tutorials/:id
-- DELETE	api/tutorials
-- GET	api/tutorials/published
-- GET	api/tutorials?title=[title]
+* GET	api/tutorials
+* GET	api/tutorials/:id
+* POST	api/tutorials
+* PUT	api/tutorials/:id
+* DELETE	api/tutorials/:id
+* DELETE	api/tutorials
+* GET	api/tutorials/published
+* GET	api/tutorials?title=[title]
 
 
