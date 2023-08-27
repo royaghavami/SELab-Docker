@@ -54,6 +54,10 @@ findAllPublished
 ### تصویر container ها با اجرای دستور docker ps:
 <img width="1440" alt="docker-containers" src="https://github.com/royaghavami/SELab-Docker/assets/59202308/b1456cd4-7cc2-40cc-a46a-76ac398a1c80">
 
+<img width="1440" alt="docker-container-2" src="https://github.com/royaghavami/SELab-Docker/assets/59202308/20a11b3e-515f-4250-9b2e-70787b3dd719">
+
+
+
 
 ### تصویر image ها با اجرای دستور docker image ls:
 <img width="1440" alt="docker-images" src="https://github.com/royaghavami/SELab-Docker/assets/59202308/567b0597-0033-4600-b2c3-557661a7d4cb">
