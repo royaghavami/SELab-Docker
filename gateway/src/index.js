@@ -3,8 +3,6 @@ const cors = require("cors");
 const axios = require("axios");
 
 
-console.log('***********hi**********')
-
 const app = express();
 
 app.use(cors());
@@ -60,8 +58,6 @@ app.delete("/", (req, res) => {
         .catch(err => res.json(err));
 });
 
-
-// set port, listen for requests
 const PORT = process.env.PORT || '8080';
 app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}.`);
