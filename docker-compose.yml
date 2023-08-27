@@ -1,0 +1,60 @@
+version: '3'
+
+services:
+
+  db:
+
+    image: 'postgres'
+
+    environment:
+
+      POSTGRES_PASSWORD: 'rrooyyaa'
+
+      POSTGRES_USER: root
+
+      POSTGRES_DB: 'postgresdb'
+
+
+  gateway:
+
+    build:
+
+      context: ./gateway
+
+      dockerfile: ./Dockerfile
+
+    ports:
+
+      - 4000:3000
+
+    depends_on:
+      - main
+      - db
+
+    environment:
+
+      MAIN_URL: http://main:3000
+
+      PORT: 3000
+
+
+  main:
+
+    build:
+
+      context: ./app
+
+      dockerfile: ./Dockerfile
+
+    depends_on:
+      - db
+
+    restart: always
+    environment:
+
+      GATEWAY_URL: http://gateway:3000
+
+      PORT: 3000
+
+      DB_URL: postgres://root:rrooyyaa@db:5432/postgresdb
+
