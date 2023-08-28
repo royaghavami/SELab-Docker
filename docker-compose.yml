@@ -17,11 +17,13 @@ services:
 
   gateway:
 
-    build:
+#    build:
+#
+#      context: ./gateway
+#
+#      dockerfile: ./Dockerfile
 
-      context: ./gateway
-
-      dockerfile: ./Dockerfile
+    image: 'royaeroyaii/selab-6-gateway'
 
     ports:
 
@@ -40,11 +42,13 @@ services:
 
   main:
 
-    build:
+#    build:
+#
+#      context: ./app
+#
+#      dockerfile: ./Dockerfile
 
-      context: ./app
-
-      dockerfile: ./Dockerfile
+    image: 'royaeroyaii/main'
 
     depends_on:
       - db
