@@ -62,7 +62,24 @@ findAllPublished
 ### تصویر image ها با اجرای دستور docker image ls:
 <img width="1440" alt="docker-images" src="https://github.com/royaghavami/SELab-Docker/assets/59202308/567b0597-0033-4600-b2c3-557661a7d4cb">
 
-### تصاویر مربوط به اجرای موفقیت آمیز سیستم ایجاد شده (فایل تصاویر در فولدر screenshots قرار دارد)
+### برای دیپلوی کردن پروژه نیز می توان از سایت گفته شده "play with docker" استفاده کرد. ابتدا باید image های سرویس هایمان را در docker hub پوش کنیم:
+<img width="1440" alt="Screenshot 1402-06-06 at 21 27 00" src="https://github.com/royaghavami/SELab-Docker/assets/59202308/5807d3fe-ce45-463e-b3b6-140467bd78a0">
+
+
+<img width="1440" alt="Screenshot 1402-06-06 at 21 27 08" src="https://github.com/royaghavami/SELab-Docker/assets/59202308/1e70c5e5-99c6-4653-8f7f-90b884fd9362">
+
+### حال باید فایل docker-compose.yml خود را به این شکل تغییر دهیم (در واقع به جای build آدرس image را قرار دهیم که برای اینکار ابتدا باید به اکانت داکرهاب خود لاگین کنیم):
+<img width="1440" alt="Screenshot 1402-06-06 at 23 34 13" src="https://github.com/royaghavami/SELab-Docker/assets/59202308/717b37f4-b07c-4695-9e17-bc1c50fc84f0">
+
+<img width="1440" alt="Screenshot 1402-06-06 at 23 34 22" src="https://github.com/royaghavami/SELab-Docker/assets/59202308/3fbbd321-167c-4fe3-a7cb-a6d6820131ce">
+
+حال این فایل را می توانیم در سایت گفته شده قرار دهیم و بعد از انجام دستور docker compose up -d برای هر یک از سرویس ها مشاهده خواهیم کرد که روی پورت های متفاوت بر روی یک public ip در حال اجرا هستند
+<img width="1440" alt="Screenshot 1402-06-06 at 21 30 26" src="https://github.com/royaghavami/SELab-Docker/assets/59202308/e30d3641-5c00-43f6-b011-1e45c16bd8ee">
+
+<img width="1440" alt="Screenshot 1402-06-06 at 21 31 22" src="https://github.com/royaghavami/SELab-Docker/assets/59202308/f36754df-07fa-482c-8d55-92c361eb0c71">
+
+<img width="1440" alt="Screenshot 1402-06-06 at 21 31 36" src="https://github.com/royaghavami/SELab-Docker/assets/59202308/e3a5b551-70cf-436c-a18e-6df3b9228dc6">
+
 
 ### نهایتا نیز با یک imageعه ingress enginx می توان پروژه را به محیط پروداکشن برد ( و مشکل مربوط به load balancing را هندل کرد که اینجا نکردیم:))
 
